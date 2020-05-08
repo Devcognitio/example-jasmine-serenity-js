@@ -9,7 +9,7 @@ export const Filtrar = {
 
     elProducto: (target: TargetElements, rangoPrecios: string) =>
         Interaction.where(`#actor busca el producto mas ${rangoPrecios}`, (actor: UsesAbilities & AnswersQuestions) => {
-            return target.answeredBy(actor).filter(function (element, index) {
+            return target.answeredBy(actor).filter(function (element) {
                 obtenerValor(actor, target, rangoPrecios);
                 return element.$('h5').getText().then(text => {
                     valorProducto = Number(text.replace('$', ''));

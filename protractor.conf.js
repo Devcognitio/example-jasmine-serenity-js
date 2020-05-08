@@ -16,7 +16,7 @@ exports.config = {
     framework:      'custom',
     frameworkPath:  require.resolve('@serenity-js/protractor/adapter'),
 
-    specs: [ './spec/*.spec.ts', ],
+    specs: [ './spec/**/*.spec.ts', ],
 
     serenity: {
         runner: 'jasmine',

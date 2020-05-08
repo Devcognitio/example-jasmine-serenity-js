@@ -1,7 +1,7 @@
-import {Actor, Answerable, Interaction} from '@serenity-js/core';
+import {Actor, Interaction} from '@serenity-js/core';
 import {browser, ExpectedConditions} from 'protractor';
-import {Check, Ensure, equals} from '@serenity-js/assertions';
-import {TextoAlerta} from '../questions';
+import {Ensure, equals} from '@serenity-js/assertions';
+import {TextoAlerta} from '../../questions';
 
 export const CerrarAlerta = {
     delNavegador: (textoAlerta: string) =>

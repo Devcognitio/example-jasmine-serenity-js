@@ -1,2 +1,2 @@
-export * from './TextoAlerta';
-export * from './TextoElemento';
+export * from './front';
+export * from './services';

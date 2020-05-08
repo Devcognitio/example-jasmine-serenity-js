@@ -1,8 +1,8 @@
-import {Click, Enter, isActive, isClickable, isVisible, Wait} from '@serenity-js/protractor';
-import {CarritoCompraPage} from '../ui';
+import {Click, Enter, isClickable, isVisible, Wait} from '@serenity-js/protractor';
+import {CarritoCompraPage} from '../../ui';
 import {Task} from '@serenity-js/core';
-import {Check, Ensure} from '@serenity-js/assertions';
-import {CerrarAlerta} from '../interactions';
+import {Check} from '@serenity-js/assertions';
+import {CerrarAlerta} from '../../interactions';
 
 
 export const Comprar = {

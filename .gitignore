@@ -10,6 +10,7 @@ target
 
 #js
 *.js
+*.spec.js
 *.steps.js
 *.steps.js.map
 *.js.map

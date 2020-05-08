@@ -1,7 +1,7 @@
-import {AnswersQuestions, Duration, Log, Note, TakeNote, Task, UsesAbilities} from '@serenity-js/core';
-import {BrowseTheWeb, Click, isClickable, isEnabled, isVisible, Wait} from '@serenity-js/protractor';
-import {DemoblazeHomePage} from '../ui';
-import {Filtrar} from '../interactions';
+import {Duration, Task} from '@serenity-js/core';
+import {Click, isClickable, isVisible, Wait} from '@serenity-js/protractor';
+import {DemoblazeHomePage} from '../../ui';
+import {Filtrar} from '../../interactions';
 import {Check} from '@serenity-js/assertions';
 
 export const Seleccionar = {
