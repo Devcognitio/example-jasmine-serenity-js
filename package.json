@@ -24,7 +24,7 @@
     "@serenity-js/serenity-bdd": "^2.3.6",
     "@types/jasmine": "^3.5.10",
     "@types/node": "^13.13.4",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "chromedriver": "^81.0.0",
     "jasmine": "^3.5.0",
     "npm-failsafe": "^0.4.1",
